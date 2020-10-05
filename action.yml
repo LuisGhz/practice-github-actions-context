@@ -5,6 +5,7 @@ inputs:
   my_input:
     description: 'input description here'
     default: 'World'
+    required: false
 runs:
   using: 'node12'
   main: 'dist/index.js'
