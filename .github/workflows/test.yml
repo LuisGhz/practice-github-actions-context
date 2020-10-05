@@ -14,8 +14,3 @@ jobs:
     - name: run action
       id: run_action
       uses: ./
-      with: 
-        my_input: 'World'
-
-    - name: log action output
-      run: echo ${{steps.run_action.outputs.my_output}}     
