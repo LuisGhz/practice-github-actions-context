@@ -3,7 +3,7 @@ import * as github from '@actions/github';
 
 function run() {
   core.info(`These are the context content:`);
-  core.info(`${github.context}`);
+  core.info(`${JSON.stringify(github.context, null, 4)}`);
 }
 
 run();

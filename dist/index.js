@@ -3707,7 +3707,7 @@ const core = __importStar(__webpack_require__(470));
 const github = __importStar(__webpack_require__(469));
 function run() {
     core.info(`These are the context content:`);
-    core.info(`${github.context}`);
+    core.info(`${JSON.stringify(github.context, null, 4)}`);
 }
 run();
 
