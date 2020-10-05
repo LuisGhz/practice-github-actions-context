@@ -1,8 +1,8 @@
 {
-  "name": "github-action-template",
-  "version": "0.0.0",
-  "private": true,
-  "description": "TypeScript template action",
+  "name": "simple-ms-teams-webhook",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Simple MS Teams webhook notifier",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
