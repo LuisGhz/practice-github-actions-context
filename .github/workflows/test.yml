@@ -14,3 +14,11 @@ jobs:
     - name: run action
       id: run_action
       uses: ./
+
+    - uses: luisghz/simple-ms-teams-webhook-notifier@v1
+      name: test my webhook notifier
+      with:
+        webhook_url: ${{ secrets.WEBHOOK_URL }}
+        summary: 'SUMMARY TEST'
+        title: 'TITLE TEST'
+        text: 'TITLE TEXT'
