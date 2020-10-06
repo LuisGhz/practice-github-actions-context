@@ -3,7 +3,7 @@ description: 'simple typescript template for building GitHub Actions'
 author: 'notiz.dev'
 inputs:
   my_input:
-    description: 'input description here'
+    description: 'input description here' #Comment test
     default: 'World'
     required: false
 runs:
